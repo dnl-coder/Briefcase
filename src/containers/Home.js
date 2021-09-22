@@ -1,5 +1,5 @@
 import React from 'react';
-import { PermanentDrawerLeft } from '../components/Sidebar'
+import { PermanentDrawerLeft } from '../components/Drawer'
 
 export const Home = () => {
   return(

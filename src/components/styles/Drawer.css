@@ -1,0 +1,54 @@
+.drawer-logo {
+  margin-top: 39px;
+  margin-right: 0;
+  margin-bottom: 50px;
+  margin-left: 123px;
+  width: 37px;
+  height: 218px;
+  background: #fff;
+  box-shadow: 11px 10px 0 0 #fe2d52;
+  filter: drop-shadow(-10px -10px 0 #28ffff);
+  position: relative;
+  zoom: 65%;
+}
+
+.drawer-logo::before {
+  content: "";
+  position: absolute;
+  border: 30px solid transparent;
+  border-top-color: #fff;
+  width: 155px;
+  border-right-color: #fff;
+  height: 159px;
+  border-radius: 100%;
+  transform: rotate(45deg);
+  filter: drop-shadow(14px 0 0 #fe2d52);
+  top: 0px;
+  right: -105px;
+}
+
+.css-v77wgg-MuiList-root {
+  height: 100%;
+  /* color: #fff; */
+}
+
+.drawer-options {
+  margin-top: 50%;
+}
+
+.drawer-name {
+  font-size: 2rem;
+}
+
+.drawer-options-text:hover {
+  color: #08fdd8;
+  transition: color .8s;
+  transition-property: color;
+  transition-duration: .8s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+a{
+  color: #fff;
+}
